@@ -1,0 +1,72 @@
+.bg-dark {
+    background-color: #212929!important;
+}
+h1{
+    font-style: italic;
+}
+.btn-primary{
+    color: black;
+    background-color: rgba(255, 166, 0, 0.788);
+    border-color:orange;
+}
+.btn-warning {
+    color: white;
+    background-color: rgba(255, 166, 0, 0.788);
+    border-color:orange;
+}
+.card-text{
+    min-height: 3em;
+}
+.card{
+    min-height: 30em;
+}
+.text-secondary {
+    color: white!important;
+}
+#carouselExampleFade{
+    margin-left: 20%;
+}
+#carrusel{
+    background-color: burlywood;
+}
+
+.productos{
+    margin-left: 10%;
+}
+
+ul li{
+    display:inline;
+    justify-content: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 100%; 
+}
+
+#productosEnCarrito{
+    margin-top: 20px;
+}
+
+.estiloFila{
+    border: 1px dotted black;
+}
+
+#formulario{
+    margin-top:5%;
+}
+
+.my-element {
+    display: inline-block;
+    animation: rubberBand;
+    animation-duration: 5s;
+    color: orange;
+}
+
+.animate__backInRight{
+    color: orange;
+}
+
+#mainCarrito{
+    margin-bottom: 5%;
+}

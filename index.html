@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cositas ricas</title>
+</head>
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap" /></svg>
+                </a>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+                </ul>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control form-control-dark" placeholder="Buscar..."
+                        aria-label="Search">
+                </form>
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2">Login</button>
+                    <button id="btnCarrito" type="button" class="btn btn-warning">Carrito</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid" id="seccionPrincipal" style="display: flex wrap;">
+        <div class="row">
+            <div class="col-12" id=carrusel>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="1500">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/carrusel/masasRellenas.jpg" class="d-block " alt="masas rellenas">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carrusel/masasFinas.jpg" class="d-block " alt="masas finas">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carrusel/alfajores.jpg" class="d-block " alt="alfajores">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carrusel/canoncitos.jpg" class="d-block" alt="cañoncitos">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carrusel/sandwiches.jpg" class="d-block" alt="sandwiches">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Cositas ricas</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>&#10024 Te invitamos a que te antojes con nuestra exquisita selección de productos &#10024</p>
+            </div>
+        </div> 
+    </div>
+    </main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col text-center">
+                <a href="index.html"><button id="subir" class="btn-primary">Ir Arriba</button></a>
+            </div>
+        </div>
+    </div>
+    <footer class="navbar navbar-default navbar-static-bottom bg-dark text-white">
+        <div class="container-fluid justify-content-center">
+            <div class="row">
+                <div class="col">
+                    <p class="navbar-text">&copy; Cositas ricas que llegan al alma &#128523</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

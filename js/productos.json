@@ -1,0 +1,49 @@
+[   {
+        "nombre": "facturas",
+        "detalles": "Facturas elaboradas en el día",
+        "precio": 25,
+        "unidadMedida": "por unidad"
+    },
+    {
+        "nombre": "medialunas",
+        "detalles": "Medialunas con crema",
+        "precio": 20,
+        "unidadMedida": "por unidad"
+    },
+    {
+        "nombre": "alfajores",
+        "detalles": "Alfajores de maicena",
+        "precio": 10,
+        "unidadMedida": "por unidad"
+    },
+    {
+        "nombre": "cookies",
+        "detalles": "Cookies surtidas de vainilla y chocolate",
+        "precio": 80,
+        "unidadMedida": "los 100 gramos"
+    },
+    {
+        "nombre": "masitas",
+        "detalles": "Masas finas surtidas",
+        "precio": 350,
+        "unidadMedida": "los 100 gramos"
+    },
+    {
+        "nombre": "pepas",
+        "detalles": "Pepas con dulce de membrillo",
+        "precio": 250,
+        "unidadMedida": "los 100 gramos"
+    },
+    {
+        "nombre": "sandwiches",
+        "detalles": "Sandwiches frescos",
+        "precio": 85,
+        "unidadMedida": "por unidad"
+    },
+    {
+        "nombre": "canoncitos",
+        "detalles": "Cañoncitos rellenos con crema pastelera",
+        "precio": 15,
+        "unidadMedida": "por unidad"
+    }
+]
